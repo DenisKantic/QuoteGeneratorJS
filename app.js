@@ -1,11 +1,21 @@
 const quote = document.getElementById("quote");
+const author = document.getElementById("author");
 const generateBtn = document.getElementById("generateBtn");
 
 const allQuotes = 
 [
-    '"The greatest glory in living lies not in never falling, but in rising every time we fall." -Nelson Mandela',
-    '"The way to get started is to quit talking and begin doing." -Walt Disney',
-    '"If life were predictable it would cease to be life, and be without flavor." -Eleanor Roosevelt'
+    {
+        quote :  '"The greatest glory in living lies not in never falling, but in rising every time we fall."',
+        author : "-Nelson Mandela"
+    },
+    {
+        quote: '"The way to get started is to quit talking and begin doing."',
+        author: "-Walt Disney"
+    },
+    {
+        quote: '"If life were predictable it would cease to be life, and be without flavor."',
+        author: "-Eleanor Roosevelt"
+    }
 ];
 
 
