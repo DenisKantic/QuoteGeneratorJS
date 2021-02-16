@@ -39,13 +39,13 @@ h1{
 #quote{
     text-align: start;
     font-size: 20px;
-    height: 150px;
 }
 
 #generateBtn{
     font-size: 16px;
     padding: 5px 30px;
-    margin-top: 2rem;
+    margin-top: 8rem;
+    position: static;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -60,4 +60,8 @@ h1{
 .createdBy{
     margin-top: 1rem;
     color: white;
+}
+
+#author{    
+    text-transform: capitalize;
 }
