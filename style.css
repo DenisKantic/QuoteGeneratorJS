@@ -20,3 +20,44 @@ body{
     border-radius: 10px;
     overflow: hidden;
 }
+
+.center-part{
+    width: 430px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#quote{
+    text-align: start;
+    font-size: 20px;
+    height: 150px;
+}
+
+#generateBtn{
+    font-size: 16px;
+    padding: 5px 30px;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+}
+
+#generateBtn:hover{
+    background-color: rgb(182, 179, 179);
+}
+
+.createdBy{
+    margin-top: 1rem;
+    color: white;
+}
